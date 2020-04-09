@@ -3,7 +3,7 @@ title: "2018-12-11 微信讨论"
 date: 2018-12-11T00:00:00+08:00
 ---
 
-来源：《Go 夜读》微信群
+来源：『Go 夜读』微信群
 
 时间：2018-12-11
 
@@ -39,6 +39,8 @@ replace (
 	golang.org/x/tools v0.0.0-20181130195746-895048a75ecf => github.com/golang/tools v0.0.0-20181213210126-fe2443f7b950 // indirect
 )
 ```
+
+indirect的意思是指这个package被子module/package依赖了，但是main module并没有直接import使用，也就是所谓的间接引用。
 
 ## mod版本号解读
 github.com/acroca/go-symbols v0.0.0-20180523203557-953befd75e2含义：

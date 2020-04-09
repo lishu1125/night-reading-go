@@ -1,4 +1,4 @@
-baseurl = "https://reading.developerlearning.cn/"
+baseurl = "https://talkgo.org/"
 title = "Go 夜读"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
@@ -22,13 +22,13 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 
 [params]
 	# General information
-	author = "John Deng"
-	description = "Night Reading Go - Go source reading and offline technical discussion every Thursday night. "
+	author = "Go 夜读 SIG 小组"
+	description = "Talk Go - Go source reading and offline technical discussion every Thursday night."
 	copyright = "Released under the Apache 2.0 license"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/developer-learning/night-reading-go"
+	repo_url = "https://github.com/talk-go/night"
 
 	version = ""
 	logo = "images/2018-12-11-night-reading-go.jpg"
@@ -53,8 +53,12 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
     	code = "Ubuntu Mono"
 
 [social]
-	github  = "developer-learning"
-	youtube = "https://www.youtube.com/channel/UCZwrjDu5Rf6O_CX2CVx7n8Q"
+	Github  = "talk-go"
+	YouTube = "https://youtube.com/c/talkgo_night"
+	Twitter = "talkgo_night"
+	Facebook = "https://www.facebook.com/groups/talkgo/"
+	Telegram = "https://t.me/talkgo_night"
+	Slakc = "https://talkgo.slack.com"
 
 [blackfriday]
 	smartypants	= true
@@ -62,7 +66,7 @@ pygmentsStyle = "tango" # "emacs" # "autumn" # "manni" # "friendly"
 	smartDashes = true
 	plainIDAnchors = true
 [outputs]
-	home = [ "HTML", "JSON"]
-	page = [ "HTML", "JSON"]
+	home = [ "HTML" ]
+	page = [ "HTML" ]
 
 	

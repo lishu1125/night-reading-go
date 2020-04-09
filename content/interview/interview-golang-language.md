@@ -4,7 +4,7 @@ date: 2018-07-26T00:00:00+08:00
 ---
 _1.select是随机的还是顺序的？_
 
-> select会`随机`选择一个可用通用做收发操作
+> select会`随机`选择一个可用通道做收发操作
 
 _2.Go语言局部变量分配在栈还是堆？_
 
@@ -27,7 +27,7 @@ _4.简述一下golang的协程调度原理?_
 > `P(processor)`: 表示逻辑processor，是线程M的执行的上下文。    
 > `G(goroutine)`: 调度系统的最基本单位goroutine，存储了goroutine的执行stack信息、goroutine状态以及goroutine的任务函数等。     
 > 
-> [查看资料](https://github.com/developer-learning/night-reading-go/blob/master/reading/20180802/README.md)
+> [查看资料](https://github.com/talk-go/night/blob/master/reading/20180802/README.md)
 
 _5.介绍下 golang 的 runtime 机制?_   
 

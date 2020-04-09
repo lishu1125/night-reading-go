@@ -2,20 +2,20 @@
 title: 如何参与贡献？
 ---
 
->欢迎大家参与讨论，更欢迎大家多多的回馈社区，来开始共享吧！
+欢迎大家参与讨论，更欢迎大家多多的回馈社区，来开始共享吧！
 
 ## 贡献流程
 
-### 第一步：Fork [https://github.com/developer-learning/night-reading-go](https://github.com/developer-learning/night-reading-go) 项目
+### 第一步：Fork [https://github.com/talk-go/night](https://github.com/talk-go/night) 项目
 
-1. 访问 [https://github.com/developer-learning/night-reading-go](https://github.com/developer-learning/night-reading-go)；
+1. 访问 [https://github.com/talk-go/night](https://github.com/talk-go/night)；
 2. 点击 Fork 按钮（顶部右侧），建立基于此的分支；
 
 ### 第二步：克隆分支到你本地
 
 ```sh
 # Define a local working directory:
-$ working_dir=/.../src/github.com/developer-learning
+$ working_dir=/.../src/github.com/talk-go
 $ user={your github profile name}
 $ mkdir -p $working_dir
 $ cd $working_dir
@@ -25,19 +25,19 @@ $ git remote -v
 origin	https://github.com/$user/night-reading-go.git (fetch)
 origin	https://github.com/$user/night-reading-go.git (push)
 
-$ git remote add upstream https://github.com/developer-learning/night-reading-go.git
+$ git remote add upstream https://github.com/talk-go/night.git
 $ git remote -v
 origin	https://github.com/$user/night-reading-go.git (fetch)
 origin	https://github.com/$user/night-reading-go.git (push)
-upstream	https://github.com/developer-learning/night-reading-go.git (fetch)
-upstream	https://github.com/developer-learning/night-reading-go.git (push)
+upstream	https://github.com/talk-go/night.git (fetch)
+upstream	https://github.com/talk-go/night.git (push)
 
 # Never push to upstream master since you do not have write access.
 $ git remote set-url --push upstream no_push
 $ git remote -v
 origin	https://github.com/$user/night-reading-go.git (fetch)
 origin	https://github.com/$user/night-reading-go.git (push)
-upstream	https://github.com/developer-learning/night-reading-go.git (fetch)
+upstream	https://github.com/talk-go/night.git (fetch)
 upstream	no_push (push)
 ```
 
@@ -67,7 +67,7 @@ $ git checkout -b myfeature
 请按照以下一些格式编写：
 
 文件命名：`2018-08-03-contributing.md`；
-文件的图片：放到 `images` 下；
+文件的图片：放到 `static/images` 下；
 文件内容：需要明确标题、日期等基本信息；
 
 ### 第五步：保持分支同步
@@ -85,6 +85,8 @@ $ git rebase upstream/master
 ```sh
 $ git commit
 ```
+
+请参考 [Git Commit 规范指南](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit?pref=2&pli=1#)。
 
 ### 第七步：推送
 

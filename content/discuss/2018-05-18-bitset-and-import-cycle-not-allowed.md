@@ -1,11 +1,11 @@
 ---
 title:  2018-05-18 包循环依赖如何解决
-source: 《Go 夜读》微信群
+source: 『Go 夜读』微信群
 date: 2018-05-18T00:00:00+08:00
 ---
 ## 1. 包循环依赖如何解决？
 
-![import_cycle_not_allowed](/images/import_cycle_not_allowed.jpeg)
+![import_cycle_not_allowed](/static/images/import_cycle_not_allowed.jpeg)
 
 方法：
 
@@ -15,7 +15,7 @@ date: 2018-05-18T00:00:00+08:00
 
 使用 `govendor list -v` 可以查看一个包被哪些包依赖：
 
-那么反过来，你可能想知道一个包依赖了哪些包？这个是 go 工具链里面提供的方法，直接使用 `go list`，比如：`go list -f '{{ .Imports }}' github.com/developer-learning/night-go`
+那么反过来，你可能想知道一个包依赖了哪些包？这个是 go 工具链里面提供的方法，直接使用 `go list`，比如：`go list -f '{{ .Imports }}' github.com/talk-go/night`
 
 ## 2. bitset
 
@@ -40,7 +40,7 @@ A：那你知道锁的底层也是原子锁实现的吧？既然还是整个切�
 
 ### simd 是什么？
 
-![simd](/images/450px-SIMD.svg.png)
+![simd](/static/images/450px-SIMD.svg.png)
 
 >单指令流多数据流（英语：Single Instruction Multiple Data，缩写：SIMD）是一种采用一个控制器来控制多个处理器，同时对一组数据（又称“数据向量”）中的每一个分别执行相同的操作从而实现空间上的并行性的技术。
 
@@ -93,7 +93,7 @@ func OnesCount64(x uint64) int {
 
 强烈推荐阅读(只能用于学习查阅，请勿分享传播，如有侵权，请联系我)：
 
-- **[《Hacker's Delit》](../docs/Hacker's-Delight-2nd-Edition.pdf)**
+- **[Hacker's Delit](../docs/Hacker's-Delight-2nd-Edition.pdf)**
 - [算法心得：高效算法的奥秘（中文第2版）](../docs/算法心得：高效算法的奥秘（中文第2版）.pdf)
 
 ## 其他

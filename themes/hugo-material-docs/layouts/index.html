@@ -20,12 +20,12 @@
     <article class="article">
         <div class="wrapper">
             {{ range where .Site.Pages "Type" "index" }}
-            <h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
+            <h1>{{ .Title }} {{ if .Draft }} (Draft){{ end }}</h1>
 
             {{ .Content }} {{ end }}
 
             <aside class="copyright" role="note">
-                {{ with .Site.Params.copyright }} &copy; {{ now.Format "2006" }} {{ . }} &ndash; {{ end }} By John Deng.
+                {{ with .Site.Params.copyright }} &copy; {{ now.Format "2006" }} {{ . }} &ndash; {{ end }} By Go 夜读 SIG 小组.
             </aside>
 
             <footer class="footer">

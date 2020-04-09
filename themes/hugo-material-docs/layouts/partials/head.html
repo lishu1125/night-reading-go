@@ -12,7 +12,6 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>{{ .Title }}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}</title>
-    {{ .Hugo.Generator }}
 
     {{ with .Site.Params.description }}
     <meta name="description" content="{{ . }}">
@@ -73,9 +72,24 @@
     <script src="{{ "javascripts/modernizr.js" | absURL }}"></script>
     <script src="{{ "javascripts/growingio.js" | absURL }}"></script>
 
-    {{ with .RSSLink }}
+    {{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}
     <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
     <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
     {{ end }}
+    <script type='text/javascript'>
+      var _vds = _vds || [];
+      window._vds = _vds;
+      (function(){
+        _vds.push(['setAccountId', 'b5ceca26ced64330bc071c17f1bc12fa']);
+        (function() {
+          var vds = document.createElement('script');
+          vds.type='text/javascript';
+          vds.async = true;
+          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'assets.giocdn.com/vds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(vds, s);
+        })();
+      })();
+    </script>
   </head>
   <body class="{{ with .Site.Params.palette.primary }}palette-primary-{{ . }}{{end }} {{ with .Site.Params.palette.accent }}palette-accent-{{ .  }}{{ end }}">

@@ -2,7 +2,7 @@
 title: 2018-05-28 生产环境如何调试服务的内存泄露
 date: 2018-05-28T00:00:00+08:00
 ---
-来源：《Go 夜读》微信群
+来源：『Go 夜读』微信群
 
 时间：2018-05-28
 
@@ -28,7 +28,7 @@ pprof 是一个运行时间段的数据，然后后续分析使用，线上应�
 
 >[appoptics-apm-go](https://github.com/appoptics/appoptics-apm-go)
 
-![memstats](/images/memstats.jpeg)
+![memstats](/static/images/memstats.jpeg)
 
 pprof 算是监控的一种，promethues 中自带的 exporter 就有监控 go runtime 的数据，比如 goroutine 数量，栈等。
 
