@@ -1,6 +1,6 @@
 {
   "projectName": "night",
-  "projectOwner": "talk-go",
+  "projectOwner": "talkgo",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
@@ -190,7 +190,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/7344921?v=4",
       "profile": "https://github.com/SwanSpouse",
       "contributions": [
-        "code"
+        "code",
+        "doc"
       ]
     },
     {
@@ -669,6 +670,24 @@
       "profile": "https://yuque.com/clip",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "shengyou",
+      "name": "Shengyou Fan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1264736?v=4",
+      "profile": "https://github.com/shengyou",
+      "contributions": [
+        "talk"
+      ]
+    },
+    {
+      "login": "dlsniper",
+      "name": "Florin Pățan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/607868?v=4",
+      "profile": "http://florinpatan.ro",
+      "contributions": [
+        "talk"
       ]
     }
   ],

@@ -10,22 +10,26 @@
 4. 得到几个大 V 的 star，然后自然引流（appleboy, Windy）；
 5. 因为『Go 夜读』线下活动大家都有很多的收获，然后我们还将每期学到的知识进行总结，不久就得到了 [gocn.io](http://gocn.vip) GoCN 每日新闻的推广。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-github-trending_20180518142500.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-github-trending_20180518142500.png)
 
 **掘金：**
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-juejin_20180517115400.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-juejin_20180518090800.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-juejin_20180518142500.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-juejin_20180522152100.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-juejin_20180517115400.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-juejin_20180518090800.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-juejin_20180518142500.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-juejin_20180522152100.png)
 
 发展时间：从 2018-03-21 到 2018-06-28
 
 >由于场地以及时间的关系，将『Go 夜读』调整为每周四晚上线上活动（zoom.us）。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-star_20180516110400.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-star_20180516115000.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-star_20180518142500.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-star_20180516110400.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-star_20180516115000.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-star_20180518142500.png)
+
+### 第一阶段（二）
+
+2018-05-25 开通 YouTube，并上传了 Go 夜读的第一个视频《#7 http 包源码阅读 part1》，不过第一次上传这个视频时没有做剪辑，所以这一期视频在后面是单独又上传了一次。
 
 ----
 
@@ -44,9 +48,9 @@
 
 **Github Trending:**
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-github-trending_20180724203600.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-github-trending_20180724203600.png)
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-github-trending_20180726204300.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-github-trending_20180726204300.png)
 
 ----
 
@@ -67,13 +71,20 @@
 
 >[Go 夜读](https://talkgo.org/)终于有自己的官方网站了。
 
-从 2018-09-27 在 issue 中提出[自动更新 README 脚本化](https://github.com/talk-go/night/issues/58)，到最近[将项目中的文章自动同步构建网站](https://github.com/talk-go/night/issues/74)
+从 2018-09-27 在 issue 中提出[自动更新 README 脚本化](https://github.com/talkgo/night/issues/58)，到最近[将项目中的文章自动同步构建网站](https://github.com/talkgo/night/issues/74)
 
 在这里我要非常感谢 @john-deng ，是你第一次提出来，也是你在一直改进我们的官网。
 
 昨天（2018-12-04）的 GrowingIO 数据：
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/2018-12-04-gio.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/2018-12-04-gio.png)
+
+### 第四阶段（二）
+
+2019-01-10 开通了 bilibili，考试成绩 74分。
+随后上传了《#26 手把手教你基于 Github+Netlify 构建自动化持续集》。
+
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/bilibili_kaoshi.png)
 
 ----
 
@@ -104,7 +115,7 @@ reading-go 再次登上 Github Go Trending 的排行榜。
 
 经过自己的思考，我重新调整了 Go 夜读的选题，以及协同方式。
 
-详情可参见：2019.04.13 https://github.com/talk-go/night/issues/348
+详情可参见：2019.04.13 https://github.com/talkgo/night/issues/348
 
 ### 第八阶段
 
@@ -121,18 +132,18 @@ star 数开启于：2800
 
 截止到晚上19：07，增长了300多颗星。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/trending_go.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/trending_go.jpg)
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/trending_developers.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/trending_developers.jpg)
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/trending_repos.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/trending_repos.jpg)
 
 2019年5月21日，B站关注数猛增150多人，达到1070多人的关注。
 2019年5月21日，YouTube关注订阅达到968人，近千人的关注。
 >非常感谢大家对于Go夜读的支持，欢迎大家积极参与 issue 来发起相关话题的讨论。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/reading_go_bilibili.jpg)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/reading_go_youtube.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/reading_go_bilibili.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/reading_go_youtube.jpg)
 
 截止到 2019年5月21日 09:15:00
 
@@ -140,9 +151,9 @@ star：3361，B站：1084，YouTube：971
 
 后面我得知，这一波增长的源头是 Github 精选推荐了 Go 夜读，然后这个推荐又发布在微博上，微博上的蒋涛CSDN又转发了一波，CSDN 又转发了，所以就有了一定传播效应。所以最终得到了较大范围的曝光。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/weibo_github_daily.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/weibo_jiangtao_csdn.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/weibo_csdn_other_forward.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/weibo_github_daily.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/weibo_jiangtao_csdn.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/weibo_csdn_other_forward.png)
 
 截止到 2019年5月21日 18:19:00
 
@@ -152,12 +163,12 @@ star：3504，B站：1119，YouTube：993
 
 Github Trending：
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/github_trending_go_0521.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/github_trending_developer_0521.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/github_trending_go_0521.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/github_trending_developer_0521.png)
 
 2019年5月21日 21:25 YouTube 突破 1000：
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/reading_go_youtube_1001.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/reading_go_youtube_1001.jpg)
 
 截止到 2019年5月23日 09:38:00
 
@@ -171,7 +182,7 @@ star：4278，B站：2026，YouTube：1335
 
 ## 第十阶段
 
-2019-08-05 开放 Go 夜读 SIG 核心成员的招募。（地址：https://github.com/talk-go/night/issues/443）
+2019-08-05 开放 Go 夜读 SIG 核心成员的招募。（地址：https://github.com/talkgo/night/issues/443）
 
 2019-08-07 组建了 3 个人的 SIG 核心小组。
 >小组成员：[yangwenmai](https://github.com/yangwenmai), [changkun](https://github.com/changkun), [FelixSeptem](https://github.com/FelixSeptem)
@@ -193,26 +204,26 @@ GitHub Star：4702，B站：2848 粉丝，YouTube：1589 订阅
 
 2019-11-05 有小伙伴在北邮人论坛发了一个帖子：https://bbs.byr.cn/#!article/Linux/158901
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/beijing-youdian-university.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/beijing-youdian-university.png)
 
 带来了一波北京邮电大学的小伙伴们，也顺带激发了 Github trending，继而 star 增长。
 
 Github Trending Go 语言第 2，全语言第 9 名。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-today-trending_go_no2_20191107.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-weekly-trending_go_no10_20191107.png)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-today-trending_all_no9_20191107.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-today-trending_go_no2_20191107.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-weekly-trending_go_no10_20191107.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-today-trending_all_no9_20191107.png)
 
 还有 Github Traffic 的一个小统计：
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-traffic_20191107.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-traffic_20191107.png)
 
 发现一个很有趣的事情就是 Go 夜读被放到了 https://allcontributors.org/ 首页上了。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/allcontributors-night-reading-go-20191107.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/allcontributors-night-reading-go-20191107.jpg)
 
 附上一张 Growingio 过去 180 天 https://talkgo.org/ 的统计图：
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-180ags-growingio_20191107.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-180ags-growingio_20191107.png)
 
 截止 2019-11-07 的一些数据：
 
@@ -242,7 +253,7 @@ GitHub Star：5489，B站：4281 粉丝，YouTube：1940 订阅
 
 Go 夜读又上 Github Trending Go 榜单了，现目前排名第 3。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/night-reading-go-today-trending_go_no3_20191205.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/night-reading-go-today-trending_go_no3_20191205.png)
 
 截止 2019-12-05 的一些数据：
 
@@ -274,7 +285,7 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 
 最高人气 3500 多，bilibili 粉丝数量达到 8000，又是给 Go 夜读创下一个里程碑。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/bilibili-fans-8000-20200320.jpg.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/bilibili-fans-8000-20200320.jpg.jpg)
 
 再次感谢各位讲师以及参与收看的小伙伴们。
 
@@ -296,21 +307,55 @@ zoom 直播，100人的房间均被快速的占满，在 bilibili 的直播上�
 
 截止 2020-03-24 ，两周年的微信公众号文章给 Go 夜读带来了约 300 名订阅者，以下是最近 200 名订阅者的截图。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/2020-03-24-night-reading-go-wechat-subscripter.png)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/2020-03-24-night-reading-go-wechat-subscripter.png)
 
 2020-03-24 登上 Github Trending daily 第 2 名，weekly 第 4 名，monthly 第 8 名。
 
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/2020-03-24-github-trending-go-daily-no2.jpg)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/2020-03-24-github-trending-go-weekly-no4.jpg)
-![](https://raw.githubusercontent.com/talk-go/night/master/static/images/2020-03-24-github-trending-go-monthly-no8.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/2020-03-24-github-trending-go-daily-no2.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/2020-03-24-github-trending-go-weekly-no4.jpg)
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/2020-03-24-github-trending-go-monthly-no8.jpg)
 
 
 ## 第十七阶段
 
-2020-03-26 我们将项目改为 `talk-go/night` 了，相比之前更简单，更好记，也更有意义。
+2020-03-26 我们将项目改为 `talkgo/night` 了，相比之前更简单，更好记，也更有意义。
 
 ## 第十八阶段
 
-2020-04-05 Go 夜读，有了英文名 Talk Go，并且也在其他各个社交平台开通了。
+2020-04-05 Go 夜读，有了英文名 TalkGo，并且也在其他各个社交平台开通了。
 
-[Facebook](https://www.facebook.com/groups/talkgo/), [Twitter](https://twitter.com/talkgo_night), [YouTube](https://youtube.com/c/talkgo_night), [Slack](https://talkgo.slack.com), [Telegram](https://t.me/talkgo_night)
+[Facebook](https://www.facebook.com/groups/talkgo/), [Twitter](https://twitter.com/talkgo_night), [YouTube](https://youtube.com/c/talkgo_night), [Slack](https://talkgo.slack.com), [Telegram](https://t.me/talkgo)
+
+## 第十九阶段
+
+2020-05-12 Go 夜读 Bilibili 关注数突破 1 万，达到一个新的里程碑。
+
+截止 2020-05-12 的一些数据：
+
+GitHub Star：7313，B站：10001 粉丝，YouTube：3350 订阅
+
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/bilibili_1w_chengjiu.jpg)
+
+![](https://raw.githubusercontent.com/talkgo/night/master/static/images/bilibili_1w_screenshot.png)
+
+## 第二十阶段
+
+好事成双，今天（2020-05-12）我们还开通了[TalkGo 社区网站](https://talkgo.org/)。
+
+## 第二十一阶段
+
+2020-06-29 ，在[aofei](https://github.com/aofei)同学的帮助下，TalkGo 的 GitHub Repo 用户名正式更换为 talkgo 了，全平台统一，看起来也非常舒服了。
+
+## 第二十二阶段
+
+2020-07-01 第 6 个小伙伴加入 Go 夜读 SIG 核心小组。
+
+>新增小组成员：[aofei](https://github.com/aofei)
+
+## 第二十三阶段
+
+2020-07-23 由曹大在 Go 夜读分享《第 97 期我们可以从 mosn 和相关的项目中学习到什么》，按照惯例，我们的分享将在 zoom 和 bilibili 上直播，由于网络原因，现在上 zoom 的小伙伴已经比较少了，大家都是 bilibili，非常方便就可以接入，今天我们的 b站人气一路狂奔，1000、2000、5000、1万、2万，迅速累计超过2万，最高时人气将近3万，创下了 Go 夜读有史以来最高人气。
+
+在分享开始之前，Jimmysong 还在云原生和 ServiceMesh 各群进行了转发，带来了不少的人气，在分享过程中 Jimmysong 也是有问必答。
+
+感谢曹大和 Jimmysong 的分享和答疑。
